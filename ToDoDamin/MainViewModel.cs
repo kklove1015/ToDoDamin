@@ -12,6 +12,7 @@ namespace ToDoDamin
 {
     public class MainViewModel : BindableBase
     {
+        //test
         public ObservableCollection<TaskModel> Tasks { get; } = new ObservableCollection<TaskModel>();
 
         public ICommand AddTaskCommand { get; }
